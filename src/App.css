@@ -1,0 +1,22 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.upper_navbar{
+    background-color:  #003580;
+    text-decoration: none;
+    color: #f2f6fa;
+
+}
+#count{
+    width:35px;
+    height: 35px;
+}
+#register #sign-in{
+    padding:15px;
+    margin: 15px;
+    background-color: #f2f6fa;
+    color: #003580;
+}
