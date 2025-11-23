@@ -1,12 +1,13 @@
-import country from './assets/world.png'
-import service from './assets/question.png'
-import './Navbar.css'
-import bed from './assets/bed.png'
-import flight from './assets/direct-flight.png'
-import taxi from './assets/sign.png'
-import giant from './assets/sky.png'
-import travel from './assets/travel-and-tourism.png'
-import car from './assets/car.png'
+import service from './assets/question.png';
+import bed from './assets/bed.png';
+import flight from './assets/flight.png';
+import taxi from './assets/taxi.png';
+import giant from './assets/sky.png';
+import travel from './assets/travel.png';
+import car from './assets/car.png';
+import country from './assets/world.png'; 
+import './Navbar.css';
+ 
 function Navbar() {
     return (<>
         <div className="upper_navbar">
@@ -44,6 +45,7 @@ function Navbar() {
                 <h3 id='text_S'>Search deals on hotels, homes, and much more...</h3>
             </div>
         </div>
+        
     </>
     );
 }
