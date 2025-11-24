@@ -36,7 +36,12 @@ function Offers({
                         }}>{lower_body}</div>}
                         <button className="card-button" style={{
                             marginLeft: '20px',
-                            padding: '5px 10px'
+                            padding: '15px 10px',
+                            backgroundColor:'#0456c8',
+                            borderRadius:'10px',
+                            color:'#fafafa',
+                            fontWeight:'bold',
+                            fontFamily:'Segoe UI'
                         }}
                         >{butt_Text}</button>
                     </div>
